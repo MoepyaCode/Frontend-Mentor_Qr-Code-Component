@@ -8,7 +8,11 @@ export default {
     backgroundColor: theme => ({
       ...theme('colors'),
     }),
-    extend: {},
+    extend: {
+      fontFamily: {
+        outfit: ['"Outfit"', 'sans-serif'],
+      }
+    },
   },
   plugins: [],
 }
